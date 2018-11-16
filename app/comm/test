@@ -1,0 +1,19 @@
+		
+1.JAVA环境先准备好		
+		
+		
+		
+2.安装rabbitMQ,参照下面链接:		
+	https://www.cnblogs.com/hongdada/p/7203589.html	
+	sudo apt-get install erlang-nox	
+		
+		
+	第一件事要创建用户，因为缺省的guest/guest用户只能在本地登录，所以先用命令行创建一个admin/admin123，并让他成为管理员。	
+		
+	# ./rabbitmqctl add_user admin admin123	
+	# ./rabbitmqctl set_user_tags admin administrator	
+
+
+	参考网址:	
+		https://blog.csdn.net/sharetop/article/details/50523081
+		https://blog.csdn.net/sharetop/article/details/49716897
