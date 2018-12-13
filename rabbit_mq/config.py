@@ -25,3 +25,24 @@ MQ_PWD = 'guest'
 MQ_ORDER_TOPIC = 'admin_order'
 CRON_TIMES = 3
 
+
+# 延迟交换机
+ORDER_EXCHANGE = 'order.exchange'
+# 延迟队列
+ORDER_QUEUE = 'order.queue'
+
+# 延迟交换机
+DELAY_EXCHANGE_5MIN = 'delay.shopping.exchange'
+# 延迟队列
+DELAY_QUEUE_5MIN = 'delay.shopping.queue'
+
+# 消费交换机
+EXCHANGE = 'cabinet.exchange'
+# 消费队列
+QUEUE = 'cabinet.queue'
+
+# 定时消息交换机
+TIMING_EXCHANGE = 'timing.exchange'
+
+# 定时消息队列
+TIMING_QUEUE = 'timing.queue'
