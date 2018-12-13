@@ -10,7 +10,7 @@
 
 # import pika, json
 import time
-from rabbit_mq.messageMQ import MessageMQ
+from rabbit_mq.config.messageMQ import MessageMQ
 #
 # # 延迟交换机
 # delay_exchange = 'delay.shopping.exchange'

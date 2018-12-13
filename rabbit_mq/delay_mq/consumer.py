@@ -7,11 +7,12 @@
 @Time    : 18-11-13 下午5:27
 @Version : 
 """
+
 import time
 import json
 import pymysql
-from ..messageMQ import MessageMQ, QUEUE
-from rabbit_mq.config import DB_HOST, DB_NAME, DB_PORT, DB_PWD, DB_USER
+from config.messageMQ import MessageMQ, QUEUE
+from config.config import DB_HOST, DB_NAME, DB_PORT, DB_PWD, DB_USER
 
 message = MessageMQ()  # 创建socket连接
 
